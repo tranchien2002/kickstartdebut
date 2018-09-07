@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World DApp</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container">
+  <div class="container">
+    <h1>Kickstart</h1>
+    <button class="btn btn-success" id="create-campaign" onclick="createCampaign()">Create catmpaign !</button>
+  </div>
+  <hr>
+  <div class="container">
+    <ul class="list-group" id="campaigns">
+    </ul>
+  </div>
+</body>
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="app.js"></script>
+<!-- <script>
+  $("#create-campaign").on("click", function(){
+    createCampaign();
+  })
+</script> -->
+</html>
