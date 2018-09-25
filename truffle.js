@@ -1,5 +1,5 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
-MNENOMIC = "fatigue swarm odor helmet zone pattern obscure loud basic biology start wet"
+MNENOMIC = "pencil wonder river token major before ordinary cargo cool left tail rude"
 INFURA_API_KEY = "53c708dd5cec4b94bf212dcac7a3490f"
 module.exports = {
   networks: {
